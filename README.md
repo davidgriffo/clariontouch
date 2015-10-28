@@ -11,3 +11,4 @@ The support for touch is based on the API for Windows versions 8.x and above - a
 Clarion:
 version 10.0 and up
 
+Made changes to Work on 10.0.11975
