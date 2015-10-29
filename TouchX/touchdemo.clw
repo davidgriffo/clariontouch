@@ -100,70 +100,70 @@ EndTest          PROCEDURE()
                END
 
 
-  CODE
-  OPEN (W)
+    CODE
+        OPEN (W)
         W {PROP:Pixels} = TRUE
         W{PROP:Buffer} = 1
         W{PROP:LazyDisplay} = 0     
         Notifier &= 0 + W {PROP:TouchInterface}
 
-    ACCEPT !Accept loop
+        ACCEPT !Accept loop
     
         
-        CASE ACCEPTED()
+            CASE ACCEPTED()
 
-        OF ?Tech_Data
+            OF ?Tech_Data
 
-            IF TechData = TRUE
-                TechData = FALSE
-                ?Tech_Data{PROP:Icon} = 'off.png'
-                HIDE(?Starts)
-                HIDE(?Paths)
-                HIDE(?Drops)
-            ELSE
-                TechData = TRUE
-                ?Tech_Data{PROP:Icon} = 'on.png'
-                UNHIDE(?Starts)
-                UNHIDE(?Paths)
-                UNHIDE(?Drops)
+                IF TechData = TRUE
+                    TechData = FALSE
+                    ?Tech_Data{PROP:Icon} = 'off.png'
+                    HIDE(?Starts)
+                    HIDE(?Paths)
+                    HIDE(?Drops)
+                ELSE
+                    TechData = TRUE
+                    ?Tech_Data{PROP:Icon} = 'on.png'
+                    UNHIDE(?Starts)
+                    UNHIDE(?Paths)
+                    UNHIDE(?Drops)
       
-            END
+                END
             
             
-        OF ?Drag_BTN
-            IF ZoomTest = TRUE
-                ZoomTest = FALSE
-                DO StopZoomTest
-            ELSE
-                ZoomTest = TRUE
-                DO StopTouchTest
-                DO StartZoomTest
+            OF ?Drag_BTN
+                IF ZoomTest = TRUE
+                    ZoomTest = FALSE
+                    DO StopZoomTest
+                ELSE
+                    ZoomTest = TRUE
+                    DO StopTouchTest
+                    DO StartZoomTest
       
-            END
+                END
 
-        OF ?Touch_BTN
-            IF TouchTest = TRUE
-                TouchTest = FALSE
-                DO StopTouchTest
-            ELSE
-                TouchTest = TRUE
-                DO StopZoomTest
-                DO StartTouchTest
-            END            
+            OF ?Touch_BTN
+                IF TouchTest = TRUE
+                    TouchTest = FALSE
+                    DO StopTouchTest
+                ELSE
+                    TouchTest = TRUE
+                    DO StopZoomTest
+                    DO StartTouchTest
+                END            
 
-        SETCURSOR()
+                SETCURSOR()
             
-    ELSE
-      IF EVENT() = EVENT:Timer
-        IF TouchTest
-          TouchResponder.Tick (CLOCK())
+            ELSE
+                IF EVENT() = EVENT:Timer
+                    IF TouchTest
+                        TouchResponder.Tick (CLOCK())
+                    END
+                END
+            END
         END
-      END
-    END
-  END
 
-  CLOSE (W)
-  RETURN
+        CLOSE (W)
+        RETURN
 
 ! ----------------------------------------------------------------------------
 
@@ -172,12 +172,12 @@ StartTouchTest      ROUTINE
     ?instruct{PROP:Text} = 'touch the screen with 1 or more fingers and drag across display, code also detects when finger is lifted'
     UNHIDE(?Selected_Mode)
     W{PROP:Text} = 'Touch Mode Selected'
-        ?Drops{PROP:Text} =  '' 
-        ?Starts{PROP:Text} = ''
-        ?Paths{PROP:Text} = ''
+    ?Drops{PROP:Text} =  '' 
+    ?Starts{PROP:Text} = ''
+    ?Paths{PROP:Text} = ''
     TouchResponder.StartTest()
-  Notifier.TouchResponder (TouchResponder.IPointerResponder)
-  EXIT
+    Notifier.TouchResponder (TouchResponder.IPointerResponder)
+    EXIT
 
 ! ----------------------------------------------------------------------------
 
@@ -187,25 +187,24 @@ StartZoomTest       ROUTINE
     UNHIDE(?Selected_Mode)
     W{PROP:Text} = 'Zoom Mode Selected'
     SETCURSOR('morfo.cur')
-        ?Drops{PROP:Text} =  '' 
-        ?Starts{PROP:Text} = ''
-        ?Paths{PROP:Text} = ''
+    ?Drops{PROP:Text} =  '' 
+    ?Starts{PROP:Text} = ''
+    ?Paths{PROP:Text} = ''
    
     ZoomResponder.StartTest()
-  Notifier.InputResponder (ZoomResponder.IGestureResponder)
-  EXIT
+    Notifier.InputResponder (ZoomResponder.IGestureResponder)
+    EXIT
 
 ! ----------------------------------------------------------------------------
 
 StopTouchTest       ROUTINE
-  
-  HIDE(?Selected_Mode)
-  W{PROP:Text} = 'SoftVelocity Touch Demo'
-  TouchTest = FALSE
-  Notifier.TouchResponder()
-  TouchResponder.EndTest()
-  DISPLAY (?TouchTest)
-  EXIT
+    HIDE(?Selected_Mode)
+    W{PROP:Text} = 'SoftVelocity Touch Demo'
+    TouchTest = FALSE
+    Notifier.TouchResponder()
+    TouchResponder.EndTest()
+    DISPLAY (?TouchTest)
+    EXIT
 
 ! ----------------------------------------------------------------------------
 
@@ -213,11 +212,11 @@ StopZoomTest        ROUTINE
     HIDE(?Selected_Mode)
     W{PROP:Text} = 'SoftVelocity Touch Demo'
     SETCURSOR()
-  ZoomTest = FALSE
-  Notifier.InputResponder()
-  ZoomResponder.EndTest()
-  DISPLAY (?ZoomTest)
-  EXIT
+    ZoomTest = FALSE
+    Notifier.InputResponder()
+    ZoomResponder.EndTest()
+    DISPLAY (?ZoomTest)
+    EXIT
 
 ! =============================================================================
 !
@@ -225,41 +224,37 @@ StopZoomTest        ROUTINE
 !    
 ! =============================================================================
 
-TouchResponder.StartTest  PROCEDURE()
+TouchResponder.StartTest    PROCEDURE()
+i                               UNSIGNED,AUTO
+    CODE
+        LOOP i = 1 TO MAXIMUM (SELF.IDs, 1)
+            SELF.FEQs[i] = 0
+            SELF.IDs [i] = 0
+            SELF.Ends[1] = 0
+            SELF.Mids[1] = 0
+        END
 
-i        UNSIGNED,AUTO
-
-  CODE
-  LOOP i = 1 TO MAXIMUM (SELF.IDs, 1)
-    SELF.FEQs[i] = 0
-    SELF.IDs [i] = 0
-    SELF.Ends[1] = 0
-    SELF.Mids[1] = 0
-  END
-
-  W {PROP:Timer} = 20
-  RETURN
+        W {PROP:Timer} = 20
+        RETURN
 
 ! ----------------------------------------------------------------------------
 
-TouchResponder.EndTest  PROCEDURE()
+TouchResponder.EndTest      PROCEDURE()
+i                               UNSIGNED,AUTO
+    CODE
+        W {PROP:Timer} = 0
 
-i        UNSIGNED,AUTO
-
-  CODE
-  W {PROP:Timer} = 0
-
-  LOOP i = 1 TO MAXIMUM (SELF.FEQs, 1)
-    IF SELF.FEQs[i] <> 0
-      DESTROY (SELF.FEQs[i])
-      SELF.FEQs[i] = 0
-    END
-    SELF.IDs [i] = 0
-    SELF.Ends[i] = 0
-    SELF.Mids[i] = 0
-  END
-  DISPLAY
-  RETURN
+        LOOP i = 1 TO MAXIMUM (SELF.FEQs, 1)
+            IF SELF.FEQs[i] <> 0
+                DESTROY (SELF.FEQs[i])
+                SELF.FEQs[i] = 0
+            END
+            SELF.IDs [i] = 0
+            SELF.Ends[i] = 0
+            SELF.Mids[i] = 0
+        END
+        DISPLAY
+        RETURN
 
 ! ----------------------------------------------------------------------------
 

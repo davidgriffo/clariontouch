@@ -31,11 +31,11 @@
     <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
   </PropertyGroup>
   <PropertyGroup>
-    <SolutionDir>C:\Dev\clariontouch\TouchX\</SolutionDir>
+    <SolutionDir>D:\dev\clariontouch\TouchX\</SolutionDir>
     <SolutionExt>.sln</SolutionExt>
     <SolutionFileName>touch.sln</SolutionFileName>
     <SolutionName>touch</SolutionName>
-    <SolutionPath>C:\Dev\clariontouch\TouchX\touch.sln</SolutionPath>
+    <SolutionPath>D:\dev\clariontouch\TouchX\touch.sln</SolutionPath>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>

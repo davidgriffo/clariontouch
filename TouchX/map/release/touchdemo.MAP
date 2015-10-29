@@ -479,100 +479,100 @@
   4C3440     8988 Initialized Data    _CONST
   4CBDC8        4 Initialized Data    _OSIO_CONST
   4CBDCC        0 Initialized Data    __CPPINI_CONS
-  4CBDCC     2274 Initialized Data    __CPPINI_CONST
-  4CE040        4 Initialized Data    __CPPINI_END
-  4CE044        0 Initialized Data    __INIVMT_CONS
-  4CE044      A60 Initialized Data    __INIVMT_CONST
-  4CEAA4        0 Initialized Data    __INIVMT_CONST_END
-  4CEAB0        1 Un-initialized Data APIGDI_BSS
-  4CEAB4        5 Un-initialized Data APIPOINTER_BSS
-  4CEABC        E Un-initialized Data CATCH2_BSS
-  4CEACC       21 Un-initialized Data CATCH_BSS
-  4CEAF0        4 Un-initialized Data CERROR_BSS
-  4CEAF4        4 Un-initialized Data CHICAGO_BSS
-  4CEAF8       1B Un-initialized Data CLAARGHW_BSS
-  4CEB14       43 Un-initialized Data CLABSVT_BSS
-  4CEB58       31 Un-initialized Data CLACDESC_BSS
-  4CEB8C       39 Un-initialized Data CLAFILE_BSS
-  4CEBC8       19 Un-initialized Data CLAINTL_BSS
-  4CEBE4        4 Un-initialized Data CLWCHECK_BSS
-  4CEBE8       10 Un-initialized Data CLWDEMO_BSS
-  4CEBF8       9C Un-initialized Data CLWINIT_BSS
-  4CEC94        4 Un-initialized Data CTLBORDER_BSS
-  4CEC98       1D Un-initialized Data CTLBUTUI_BSS
-  4CECB8       36 Un-initialized Data CTLCHECK_BSS
-  4CECF0       1A Un-initialized Data CTLDROP_BSS
-  4CED0C       1A Un-initialized Data CTLENTRY_BSS
-  4CED28       1A Un-initialized Data CTLGRAPH_BSS
-  4CED44       D9 Un-initialized Data CTLINPIC1_BSS
-  4CEE20       44 Un-initialized Data CTLLIST_BSS
-  4CEE64        C Un-initialized Data CTLLUTIL_BSS
-  4CEE70       36 Un-initialized Data CTLOPTIO_BSS
-  4CEEA8       1A Un-initialized Data CTLPROGR_BSS
-  4CEEC4       1A Un-initialized Data CTLPUSHBUTTON_BSS
-  4CEEE0       1A Un-initialized Data CTLRADIO_BSS
-  4CEEFC       1A Un-initialized Data CTLREGIO_BSS
-  4CEF18       28 Un-initialized Data CTLRENDER_BSS
-  4CEF40       1A Un-initialized Data CTLSLIDE_BSS
-  4CEF5C       36 Un-initialized Data CTLSTRIN_BSS
-  4CEF94       40 Un-initialized Data CTLTAB_BSS
-  4CEFD4        5 Un-initialized Data CTLTALLY_BSS
-  4CEFDC        E Un-initialized Data CTLTBAR_BSS
-  4CEFEC       36 Un-initialized Data CTLTEXT_BSS
-  4CF024       16 Un-initialized Data CTLTIP_BSS
-  4CF03C       2C Un-initialized Data CTLUTIL_BSS
-  4CF068       10 Un-initialized Data CTLUX_BSS
-  4CF078      146 Un-initialized Data DFLOADER_BSS
-  4CF1C0       18 Un-initialized Data DFSTATIC_BSS
-  4CF1D8       A8 Un-initialized Data DRVTRACE_BSS
-  4CF280        E Un-initialized Data GIFIMAGE_BSS
-  4CF290       DD Un-initialized Data HEAP_BSS
-  4CF370       18 Un-initialized Data IARRAY_BSS
-  4CF388       24 Un-initialized Data IBASE_BSS
-  4CF3AC       2C Un-initialized Data INDRAGATOMS_BSS
-  4CF3D8        8 Un-initialized Data INPUTLIB_BSS
-  4CF3E0      154 Un-initialized Data INPUT_BSS
-  4CF534      404 Un-initialized Data MEMORYBANK_BSS
-  4CF938       1D Un-initialized Data MFCUTIL_BSS
-  4CF958        C Un-initialized Data PNGDECODER_BSS
-  4CF964       10 Un-initialized Data PROPHASH_BSS
-  4CF974        4 Un-initialized Data PROPNAMED_BSS
-  4CF978       4A Un-initialized Data RTFHOST_BSS
-  4CF9C4       DC Un-initialized Data STDLIB_BSS
-  4CFAA0       18 Un-initialized Data THRCORE_BSS
-  4CFAB8       49 Un-initialized Data THRHELP_BSS
-  4CFB04       5C Un-initialized Data THRKBD_BSS
-  4CFB60       21 Un-initialized Data VIEWPIPE_BSS
-  4CFB84      20C Un-initialized Data WSLBRUSH_BSS
-  4CFD90       38 Un-initialized Data WSLCHILD_BSS
-  4CFDC8       3C Un-initialized Data WSLCOLOR_BSS
-  4CFE04      365 Un-initialized Data WSLDATA_BSS
-  4D016C      274 Un-initialized Data WSLDB$_BSS
-  4D03E0       3E Un-initialized Data WSLDDE_BSS
-  4D0420       1D Un-initialized Data WSLDEBUG2_BSS
-  4D0440       24 Un-initialized Data WSLDEBUG_BSS
-  4D0464       21 Un-initialized Data WSLDIAL_BSS
-  4D0488       19 Un-initialized Data WSLIMAGE_BSS
-  4D04A4       24 Un-initialized Data WSLMENU_BSS
-  4D04C8       18 Un-initialized Data WSLMETA_BSS
-  4D04E0       2C Un-initialized Data WSLMFC_BSS
-  4D050C       38 Un-initialized Data WSLMSTYL_BSS
-  4D0544       24 Un-initialized Data WSLODMEN_BSS
-  4D0568       16 Un-initialized Data WSLPOPUP_BSS
-  4D0580        1 Un-initialized Data WSLPRINT_BSS
-  4D0584       1E Un-initialized Data WSLPROP_BSS
-  4D05A4       12 Un-initialized Data WSLREPOR_BSS
-  4D05B8       1E Un-initialized Data WSLRUN_BSS
-  4D05D8       15 Un-initialized Data WSLSTAT_BSS
-  4D05F0      121 Un-initialized Data WSLSYS_BSS
-  4D0714       16 Un-initialized Data WSLTABBAR_BSS
-  4D072C        1 Un-initialized Data WSLVIDEO_BSS
-  4D0730       41 Un-initialized Data WSLWLIST_BSS
-  4D0774       25 Un-initialized Data WXFONT_BSS
-  4D079C        8 Un-initialized Data WXSLIST_BSS
-  4D07A4        C Un-initialized Data WXSTD_BSS
-  4D07B0        C Un-initialized Data WXTIMERS_BSS
-  4D07BC       28 Un-initialized Data WXUNI_BSS
+  4CBDCC     2258 Initialized Data    __CPPINI_CONST
+  4CE024        4 Initialized Data    __CPPINI_END
+  4CE028        0 Initialized Data    __INIVMT_CONS
+  4CE028      A60 Initialized Data    __INIVMT_CONST
+  4CEA88        0 Initialized Data    __INIVMT_CONST_END
+  4CEA90        1 Un-initialized Data APIGDI_BSS
+  4CEA94        5 Un-initialized Data APIPOINTER_BSS
+  4CEA9C        E Un-initialized Data CATCH2_BSS
+  4CEAAC       21 Un-initialized Data CATCH_BSS
+  4CEAD0        4 Un-initialized Data CERROR_BSS
+  4CEAD4        4 Un-initialized Data CHICAGO_BSS
+  4CEAD8       1B Un-initialized Data CLAARGHW_BSS
+  4CEAF4       43 Un-initialized Data CLABSVT_BSS
+  4CEB38       31 Un-initialized Data CLACDESC_BSS
+  4CEB6C       39 Un-initialized Data CLAFILE_BSS
+  4CEBA8       19 Un-initialized Data CLAINTL_BSS
+  4CEBC4        4 Un-initialized Data CLWCHECK_BSS
+  4CEBC8       10 Un-initialized Data CLWDEMO_BSS
+  4CEBD8       9C Un-initialized Data CLWINIT_BSS
+  4CEC74        4 Un-initialized Data CTLBORDER_BSS
+  4CEC78       1D Un-initialized Data CTLBUTUI_BSS
+  4CEC98       36 Un-initialized Data CTLCHECK_BSS
+  4CECD0       1A Un-initialized Data CTLDROP_BSS
+  4CECEC       1A Un-initialized Data CTLENTRY_BSS
+  4CED08       1A Un-initialized Data CTLGRAPH_BSS
+  4CED24       D9 Un-initialized Data CTLINPIC1_BSS
+  4CEE00       44 Un-initialized Data CTLLIST_BSS
+  4CEE44        C Un-initialized Data CTLLUTIL_BSS
+  4CEE50       36 Un-initialized Data CTLOPTIO_BSS
+  4CEE88       1A Un-initialized Data CTLPROGR_BSS
+  4CEEA4       1A Un-initialized Data CTLPUSHBUTTON_BSS
+  4CEEC0       1A Un-initialized Data CTLRADIO_BSS
+  4CEEDC       1A Un-initialized Data CTLREGIO_BSS
+  4CEEF8       28 Un-initialized Data CTLRENDER_BSS
+  4CEF20       1A Un-initialized Data CTLSLIDE_BSS
+  4CEF3C       36 Un-initialized Data CTLSTRIN_BSS
+  4CEF74       40 Un-initialized Data CTLTAB_BSS
+  4CEFB4        5 Un-initialized Data CTLTALLY_BSS
+  4CEFBC        E Un-initialized Data CTLTBAR_BSS
+  4CEFCC       36 Un-initialized Data CTLTEXT_BSS
+  4CF004       16 Un-initialized Data CTLTIP_BSS
+  4CF01C       2C Un-initialized Data CTLUTIL_BSS
+  4CF048       10 Un-initialized Data CTLUX_BSS
+  4CF058      146 Un-initialized Data DFLOADER_BSS
+  4CF1A0       18 Un-initialized Data DFSTATIC_BSS
+  4CF1B8       A8 Un-initialized Data DRVTRACE_BSS
+  4CF260        E Un-initialized Data GIFIMAGE_BSS
+  4CF270       DD Un-initialized Data HEAP_BSS
+  4CF350       18 Un-initialized Data IARRAY_BSS
+  4CF368       24 Un-initialized Data IBASE_BSS
+  4CF38C       2C Un-initialized Data INDRAGATOMS_BSS
+  4CF3B8        8 Un-initialized Data INPUTLIB_BSS
+  4CF3C0      154 Un-initialized Data INPUT_BSS
+  4CF514      404 Un-initialized Data MEMORYBANK_BSS
+  4CF918       1D Un-initialized Data MFCUTIL_BSS
+  4CF938        C Un-initialized Data PNGDECODER_BSS
+  4CF944       10 Un-initialized Data PROPHASH_BSS
+  4CF954        4 Un-initialized Data PROPNAMED_BSS
+  4CF958       4A Un-initialized Data RTFHOST_BSS
+  4CF9A4       DC Un-initialized Data STDLIB_BSS
+  4CFA80       18 Un-initialized Data THRCORE_BSS
+  4CFA98       49 Un-initialized Data THRHELP_BSS
+  4CFAE4       5C Un-initialized Data THRKBD_BSS
+  4CFB40       21 Un-initialized Data VIEWPIPE_BSS
+  4CFB64      20C Un-initialized Data WSLBRUSH_BSS
+  4CFD70       38 Un-initialized Data WSLCHILD_BSS
+  4CFDA8       3C Un-initialized Data WSLCOLOR_BSS
+  4CFDE4      365 Un-initialized Data WSLDATA_BSS
+  4D014C      274 Un-initialized Data WSLDB$_BSS
+  4D03C0       3E Un-initialized Data WSLDDE_BSS
+  4D0400       1D Un-initialized Data WSLDEBUG2_BSS
+  4D0420       24 Un-initialized Data WSLDEBUG_BSS
+  4D0444       21 Un-initialized Data WSLDIAL_BSS
+  4D0468       19 Un-initialized Data WSLIMAGE_BSS
+  4D0484       24 Un-initialized Data WSLMENU_BSS
+  4D04A8       18 Un-initialized Data WSLMETA_BSS
+  4D04C0       2C Un-initialized Data WSLMFC_BSS
+  4D04EC       38 Un-initialized Data WSLMSTYL_BSS
+  4D0524       24 Un-initialized Data WSLODMEN_BSS
+  4D0548       16 Un-initialized Data WSLPOPUP_BSS
+  4D0560        1 Un-initialized Data WSLPRINT_BSS
+  4D0564       1E Un-initialized Data WSLPROP_BSS
+  4D0584       12 Un-initialized Data WSLREPOR_BSS
+  4D0598       1E Un-initialized Data WSLRUN_BSS
+  4D05B8       15 Un-initialized Data WSLSTAT_BSS
+  4D05D0      121 Un-initialized Data WSLSYS_BSS
+  4D06F4       16 Un-initialized Data WSLTABBAR_BSS
+  4D070C        1 Un-initialized Data WSLVIDEO_BSS
+  4D0710       41 Un-initialized Data WSLWLIST_BSS
+  4D0754       25 Un-initialized Data WXFONT_BSS
+  4D077C        8 Un-initialized Data WXSLIST_BSS
+  4D0784        C Un-initialized Data WXSTD_BSS
+  4D0790        C Un-initialized Data WXTIMERS_BSS
+  4D079C       28 Un-initialized Data WXUNI_BSS
   4D1000        8 __T_L_S__DAT
   4D1008       18 __T_L_S__DATA
   4D1020        0 __T_L_S__DATA_END
@@ -6506,329 +6506,329 @@
   4CBCD4 @VMT@TouchPoint
   4CBD14 @VMT@UserPropTable
   4CBD54 @VMT@UserProperty
-  4CE054 @VMTP@Array
-  4CE064 @VMTP@EmptyCommandLine
-  4CE06C @VMTP@TrcFileHash
-  4CE074 @VMTP@TrcViewHash
-  4CE07C @VMTP@LogFile
-  4CE084 @VMTP@logFileList
-  4CE08C @VMTP@ArrayOfI%$t10IniSection
-  4CE094 @VMTP@SectionList
-  4CE09C @VMTP@SLIST
-  4CE0A4 @VMTP@FIFO
-  4CE0B4 @VMTP@qnull
-  4CE0BC @VMTP@qhash
-  4CE0C4 @VMTP@qkey
-  4CE0CC @VMTP@qrecord
-  4CE0D4 @VMTP@qcompressed
-  4CE0E4 @VMTP@hashmemory
-  4CE0EC @VMTP@hashbank
-  4CE0F4 @VMTP@hashpage
-  4CE0FC @VMTP@hashflat
-  4CE104 @VMTP@pagedhash
-  4CE10C @VMTP@shorthash
-  4CE114 @VMTP@BYTEhash
-  4CE11C @VMTP@ClassDescElem
-  4CE12C @VMTP@ClassDescHashTable
-  4CE154 @VMTP@sql_statement
-  4CE16C @VMTP@bnode
-  4CE174 @VMTP@scope
-  4CE17C @VMTP@CWEvaluator
-  4CE184 @VMTP@PrintEngine
-  4CE18C @VMTP@ProtoEvaluator
-  4CE19C @VMTP@parser
-  4CE2A4 @VMTP@FileElement
-  4CE2AC @VMTP@callbacks
-  4CE2B4 @VMTP@FilesTable
-  4CE2BC @VMTP@Driver
-  4CE2C4 @VMTP@DriverHashTable
-  4CE2CC @VMTP@CObject
-  4CE2D4 @VMTP@CWnd
-  4CE2DC @VMTP@CControlBar
-  4CE2E4 @VMTP@CWindowDC
-  4CE2EC @VMTP@CPaintDC
-  4CE2F4 @VMTP@CDockBar
-  4CE2FC @VMTP@CFrameWnd
-  4CE304 @VMTP@CClarionFrameWnd
-  4CE30C @VMTP@CGdiObject
-  4CE314 @VMTP@CBrush
-  4CE31C @VMTP@CMiniFrameWnd
-  4CE324 @VMTP@CMiniDockFrameWnd
-  4CE32C @VMTP@CDockContext
-  4CE334 @VMTP@CClarionBar
-  4CE344 @VMTP@CPtrArray
-  4CE35C @VMTP@CDC
-  4CE364 @VMTP@TabData
-  4CE36C @VMTP@ODInfoHash
-  4CE374 @VMTP@menudrawinfo
-  4CE37C @VMTP@HashedODInfo
-  4CE384 @VMTP@event
-  4CE38C @VMTP@asyncevent
-  4CE3C4 @VMTP@DDEClass
-  4CE3CC @VMTP@palgroup
-  4CE3D4 @VMTP@WndOpen_EH
-  4CE3E4 @VMTP@DESTROYinfo
-  4CE3EC @VMTP@DIMinfo
-  4CE3F4 @VMTP@HIDEinfo
-  4CE3FC @VMTP@SETPOSinfo
-  4CE404 @VMTP@SETPROPinfo
-  4CE40C @VMTP@CREATEinfo
-  4CE414 @VMTP@StatusBar
-  4CE41C @VMTP@MsgNames
-  4CE424 @VMTP@mname
-  4CE42C @VMTP@BrushDescriptor
-  4CE434 @VMTP@BrushHash
-  4CE43C @VMTP@SysBrushDescriptor
-  4CE444 @VMTP@ImageBrush
-  4CE44C @VMTP@GradientBrush
-  4CE454 @VMTP@ColorBrush
-  4CE45C @VMTP@CWBrush
-  4CE464 @VMTP@AvgBrushDescriptor
-  4CE46C @VMTP@HashOfMenus
-  4CE48C @VMTP@HashedMenu
-  4CE494 @VMTP@menuitemowner
-  4CE49C @VMTP@menulist
-  4CE4A4 @VMTP@menupopup
-  4CE4AC @VMTP@menubar
-  4CE4B4 @VMTP@menuitem
-  4CE4BC @VMTP@Popup
-  4CE4C4 @VMTP@SysPopup
-  4CE4CC @VMTP@TrackPopup
-  4CE4D4 @VMTP@IMenuDrawer
-  4CE4DC @VMTP@CWMenuDrawer
-  4CE4E4 @VMTP@ThemedMenuDrawer
-  4CE4EC @VMTP@DefaultMenuMetrics
-  4CE4F4 @VMTP@DefaultMenuStyle
-  4CE4FC @VMTP@metafile
-  4CE524 @VMTP@WLRUList
-  4CE544 @VMTP@reportscreen
-  4CE554 @VMTP@idtable
-  4CE55C @VMTP@screen
-  4CE57C @VMTP@PlacementEl
-  4CE584 @VMTP@PlacementHash
-  4CE59C @VMTP@ClaChildWindow
-  4CE5BC @VMTP@printer
-  4CE5C4 @VMTP@PrinterFinder
-  4CE5CC @VMTP@PW9x
-  4CE5D4 @VMTP@PNT4
-  4CE5DC @VMTP@PWin
-  4CE5EC @VMTP@ThreadedGroup
-  4CE604 @VMTP@sharedresource
-  4CE60C @VMTP@imageobject
-  4CE614 @VMTP@sharedcursor
-  4CE61C @VMTP@ScrollableArea
-  4CE624 @VMTP@AreaScroller
-  4CE63C @VMTP@scrollarea
-  4CE654 @VMTP@property
-  4CE674 @VMTP@systemproperties
-  4CE694 @VMTP@field
-  4CE69C @VMTP@SynchronizedClass
-  4CE6A4 @VMTP@DllInstance
-  4CE6AC @VMTP@DllHash
-  4CE6B4 @VMTP@SimpleObject
-  4CE6BC @VMTP@BaseHashElement
-  4CE6C4 @VMTP@StringHashElement
-  4CE6CC @VMTP@IntegerHashElement
-  4CE6D4 @VMTP@NullHashElement
-  4CE6DC @VMTP@BaseHashTable
-  4CE6E4 @VMTP@StringHashTable
-  4CE6EC @VMTP@IntegerHashTable
-  4CE6F4 @VMTP@NullHashTable
-  4CE6FC @VMTP@HashIterator
-  4CE704 @VMTP@FontHashTable
-  4CE70C @VMTP@HashedFontData
-  4CE714 @VMTP@WxFont
-  4CE71C @VMTP@ExclusiveNotRecursiveLock
-  4CE724 @VMTP@WxStaticAtom
-  4CE72C @VMTP@WxHeapAtom
-  4CE734 @VMTP@WxAtomTable
-  4CE73C @VMTP@WxLiteralName
-  4CE744 @VMTP@WxNamedValues
-  4CE74C @VMTP@CPPEH
-  4CE754 @VMTP@SLink
-  4CE75C @VMTP@SLinkBase
-  4CE774 @VMTP@TimerList
-  4CE77C @VMTP@ThreadLaunch_EH
-  4CE784 @VMTP@CT_DT_EH
-  4CE78C @VMTP@WinHelpEngine
-  4CE794 @VMTP@HtmlHelpEngine
-  4CE7AC @VMTP@Read_EH
-  4CE7B4 @VMTP@ThreadEH
-  4CE7D4 @VMTP@Container
-  4CE7E4 @VMTP@control
-  4CE804 @VMTP@toolbar
-  4CE80C @VMTP@UseDesc
-  4CE814 @VMTP@FieldDesc
-  4CE81C @VMTP@QueueDesc
-  4CE82C @VMTP@stringcontrol
-  4CE834 @VMTP@buttoncontrol
-  4CE83C @VMTP@checkbase
-  4CE844 @VMTP@pushbuttoncontrol
-  4CE84C @VMTP@checkcontrol
-  4CE854 @VMTP@graphiccontrol
-  4CE85C @VMTP@imagecontrol
-  4CE864 @VMTP@MultiLineText
-  4CE874 @VMTP@singletextcontrol
-  4CE88C @VMTP@textcontrol
-  4CE8A4 @VMTP@TextArea
-  4CE8AC @VMTP@TextScroller
-  4CE8B4 @VMTP@ToolTip
-  4CE8BC @VMTP@InputPicture
-  4CE8C4 @VMTP@MaskedInput
-  4CE8CC @VMTP@bordercontrol
-  4CE8E4 @VMTP@rtfcontrol
-  4CE8EC @VMTP@rtfprop
-  4CE8F4 @VMTP@rtfrepprop
-  4CE8FC @VMTP@rtffont
-  4CE904 @VMTP@rtfsource
-  4CE90C @VMTP@rtffile
-  4CE914 @VMTP@rtffield
-  4CE91C @VMTP@rtfpage
-  4CE924 @VMTP@rtfscrollbar
-  4CE92C @VMTP@rtftabs
-  4CE934 @VMTP@rtfselection
-  4CE93C @VMTP@RTFOleCallback
-  4CE944 @VMTP@DIBimage
-  4CE96C @VMTP@bmpimage
-  4CE974 @VMTP@gifstoreditem
-  4CE97C @VMTP@localimage
-  4CE984 @VMTP@gifappext
-  4CE994 @VMTP@gifimage
-  4CE9AC @VMTP@pcximage
-  4CE9B4 @VMTP@iconimage
-  4CE9BC @VMTP@sysiconimage
-  4CE9CC @VMTP@wmfimage
-  4CE9DC @VMTP@emfimage
-  4CE9E4 @VMTP@IxLog
-  4CE9EC @VMTP@IxBaseLogMedia
-  4CE9F4 @VMTP@IxBinStream
-  4CE9FC @VMTP@IxBinOStream
-  4CEA04 @VMTP@IxBinIStream
-  4CEA0C @VMTP@PNG_Logger
-  4CEA14 @VMTP@ReadStream
-  4CEA1C @VMTP@EH_PNGDecode
-  4CEA24 @VMTP@pngimage
-  4CEA2C @VMTP@TouchData
-  4CEA34 @VMTP@InputData
-  4CEA3C @VMTP@dragdrop
-  4CEA54 @VMTP@droptarget
-  4CEA5C @VMTP@oledroptarget
-  4CEA64 @VMTP@draggevent
-  4CEA7C @VMTP@InputPoint
-  4CEA84 @VMTP@TouchPoint
-  4CEA94 @VMTP@UserPropTable
-  4CEA9C @VMTP@UserProperty
-  4CEABC _TryState
-  4CEACC __cur_except
-  4CEAF4 __proc_time
-  4CEB20 _AStringHT
-  4CECB8 _12checkcontrol__info
-  4CECD4 _13state3control__info
-  4CECF0 _15droplistcontrol__info
-  4CED0C _12entrycontrol__info
-  4CED28 _14graphiccontrol__info
-  4CEE24 _11listcontrol__info
-  4CEE70 _12groupcontrol__info
-  4CEE8C _13optioncontrol__info
-  4CEEA8 _15progresscontrol__info
-  4CEEC4 _17pushbuttoncontrol__info
-  4CEEE0 _12radiocontrol__info
-  4CEEFC _13regioncontrol__info
-  4CEF18 _USP
-  4CEF40 _13slidercontrol__info
-  4CEF5C _13promptcontrol__info
-  4CEF78 _13stringcontrol__info
-  4CEF94 _10tabcontrol__info
-  4CEFB0 _12sheetcontrol__info
-  4CEFDC _7toolbar__toolbarclass
-  4CEFEC _11textcontrol__info
-  4CF008 _17singletextcontrol__info
-  4CF024 _7ToolTip__TipInfo
-  4CF03C _5bevel__upupdwdw1
-  4CF040 _5bevel__dwdwupup1
-  4CF044 _5bevel__upupdwdw2
-  4CF048 _5bevel__dwdwupup2
-  4CF04C _LightBrush
-  4CF228 _traceFiles
-  4CF248 _allSections
-  4CF280 _8gifimage__giftimerclass
-  4CF290 _11HeapProtect__crit
-  4CF2A8 _Alloc32
-  4CF2B0 _Alloc24
-  4CF2B8 _Alloc16
-  4CF2C0 _Alloc12
-  4CF2C8 _Alloc8
-  4CF2D0 _Alloc4
-  4CF2D8 _16ChunkAllocator32__LowerBound
-  4CF2DC _16ChunkAllocator32__UpperBound
-  4CF2E0 _16ChunkAllocator32__CurAlloc
-  4CF2E4 _16ChunkAllocator32__SubAllocator
-  4CF368 _allocator
-  4CF370 _11UniqueArray__sortCS
-  4CF3E0 __handler
-  4CF938 _afxCriticalSection
-  4CF9A8 _10rtfcontrol__info
-  4CFAA0 _THRHANDLER
-  4CFAB8 __HelpEngines
-  4CFB10 _3KBD__ALIASES
-  4CFB3C _3KBD__SOFT
-  4CFB7C _4view__chain
-  4CFB80 _clean
-  4CFB90 _phWhiteBrush
-  4CFB94 _phErodeBrush
-  4CFBBC _phFrameBrush
-  4CFBE0 _phWindowBrush
-  4CFC04 _phTextBrush
-  4CFC28 _phFaceBrush
-  4CFC4C _phHiliteBrush
-  4CFC70 _phShadowBrush
-  4CFC94 _phBtnTextBrush
-  4CFCB8 _phHighTextBrush
-  4CFCDC _phHighBackBrush
-  4CFD00 _phGrayTextBrush
-  4CFD24 _phTooltipBrush
-  4CFD48 _ph3DDkShadowBrush
-  4CFD6C _ph3DLightBrush
-  4CFD90 _14ClaChildWindow__clientclass
-  4CFDC0 _12ClaMDIWindow__MDISync
-  4CFDEC _csPal
-  4CFE04 Wsl_DataAccess
-  4CFE0C Wsl_AppInstance
-  4CFE10 Wsl_ResourceInstance
-  4CFE14 Wsl_LFNEnabled
-  4CFE18 Wsl_dyBorder
-  4CFE1C Wsl_Atoms
-  4CFE3C WslHelp_HlpAtoms
-  4CFE5C Wsl_SysHKL
-  4CFE60 Wsl_AppName
-  4CFF60 Wsl_AppNameW
-  4D0160 QUERY_PSCREEN
-  4D0164 QUERY_PFIELD
-  4D016C _THREAD
-  4D0170 _ERROR
-  4D0270 _ERRORCODE
-  4D0274 _LASTFIELD
-  4D02B0 _FIRSTFIELD
-  4D02EC _ACCEPTED
-  4D0328 _FOCUS
-  4D0364 _FIELD
-  4D03A0 _EVENT
-  4D03DC _KEYCODE
-  4D0404 _DDEglobalconvs
-  4D0464 _4NAME__namehash
-  4D0488 _11imageobject__imagelock
-  4D04C8 _shapeCS
-  4D04E0 _9CFrameWnd__rectDefault
-  4D04F4 _4CWnd__Creating
-  4D050C _17MenuStyleBaseData__info
-  4D0568 _8popupmgr__PopupInfo
-  4D0584 _8property__FieldAtoms
-  4D05A8 _6report__reportclass
-  4D05D8 _StatData
-  4D05F0 _Wsl_SysProps
-  4D0714 _6TabBar__tbclass
-  4D0740 _ActiveT
-  4D07BC _UNI
+  4CE038 @VMTP@Array
+  4CE048 @VMTP@EmptyCommandLine
+  4CE050 @VMTP@TrcFileHash
+  4CE058 @VMTP@TrcViewHash
+  4CE060 @VMTP@LogFile
+  4CE068 @VMTP@logFileList
+  4CE070 @VMTP@ArrayOfI%$t10IniSection
+  4CE078 @VMTP@SectionList
+  4CE080 @VMTP@SLIST
+  4CE088 @VMTP@FIFO
+  4CE098 @VMTP@qnull
+  4CE0A0 @VMTP@qhash
+  4CE0A8 @VMTP@qkey
+  4CE0B0 @VMTP@qrecord
+  4CE0B8 @VMTP@qcompressed
+  4CE0C8 @VMTP@hashmemory
+  4CE0D0 @VMTP@hashbank
+  4CE0D8 @VMTP@hashpage
+  4CE0E0 @VMTP@hashflat
+  4CE0E8 @VMTP@pagedhash
+  4CE0F0 @VMTP@shorthash
+  4CE0F8 @VMTP@BYTEhash
+  4CE100 @VMTP@ClassDescElem
+  4CE110 @VMTP@ClassDescHashTable
+  4CE138 @VMTP@sql_statement
+  4CE150 @VMTP@bnode
+  4CE158 @VMTP@scope
+  4CE160 @VMTP@CWEvaluator
+  4CE168 @VMTP@PrintEngine
+  4CE170 @VMTP@ProtoEvaluator
+  4CE180 @VMTP@parser
+  4CE288 @VMTP@FileElement
+  4CE290 @VMTP@callbacks
+  4CE298 @VMTP@FilesTable
+  4CE2A0 @VMTP@Driver
+  4CE2A8 @VMTP@DriverHashTable
+  4CE2B0 @VMTP@CObject
+  4CE2B8 @VMTP@CWnd
+  4CE2C0 @VMTP@CControlBar
+  4CE2C8 @VMTP@CWindowDC
+  4CE2D0 @VMTP@CPaintDC
+  4CE2D8 @VMTP@CDockBar
+  4CE2E0 @VMTP@CFrameWnd
+  4CE2E8 @VMTP@CClarionFrameWnd
+  4CE2F0 @VMTP@CGdiObject
+  4CE2F8 @VMTP@CBrush
+  4CE300 @VMTP@CMiniFrameWnd
+  4CE308 @VMTP@CMiniDockFrameWnd
+  4CE310 @VMTP@CDockContext
+  4CE318 @VMTP@CClarionBar
+  4CE328 @VMTP@CPtrArray
+  4CE340 @VMTP@CDC
+  4CE348 @VMTP@TabData
+  4CE350 @VMTP@ODInfoHash
+  4CE358 @VMTP@menudrawinfo
+  4CE360 @VMTP@HashedODInfo
+  4CE368 @VMTP@event
+  4CE370 @VMTP@asyncevent
+  4CE3A8 @VMTP@DDEClass
+  4CE3B0 @VMTP@palgroup
+  4CE3B8 @VMTP@WndOpen_EH
+  4CE3C8 @VMTP@DESTROYinfo
+  4CE3D0 @VMTP@DIMinfo
+  4CE3D8 @VMTP@HIDEinfo
+  4CE3E0 @VMTP@SETPOSinfo
+  4CE3E8 @VMTP@SETPROPinfo
+  4CE3F0 @VMTP@CREATEinfo
+  4CE3F8 @VMTP@StatusBar
+  4CE400 @VMTP@MsgNames
+  4CE408 @VMTP@mname
+  4CE410 @VMTP@BrushDescriptor
+  4CE418 @VMTP@BrushHash
+  4CE420 @VMTP@SysBrushDescriptor
+  4CE428 @VMTP@ImageBrush
+  4CE430 @VMTP@GradientBrush
+  4CE438 @VMTP@ColorBrush
+  4CE440 @VMTP@CWBrush
+  4CE448 @VMTP@AvgBrushDescriptor
+  4CE450 @VMTP@HashOfMenus
+  4CE470 @VMTP@HashedMenu
+  4CE478 @VMTP@menuitemowner
+  4CE480 @VMTP@menulist
+  4CE488 @VMTP@menupopup
+  4CE490 @VMTP@menubar
+  4CE498 @VMTP@menuitem
+  4CE4A0 @VMTP@Popup
+  4CE4A8 @VMTP@SysPopup
+  4CE4B0 @VMTP@TrackPopup
+  4CE4B8 @VMTP@IMenuDrawer
+  4CE4C0 @VMTP@CWMenuDrawer
+  4CE4C8 @VMTP@ThemedMenuDrawer
+  4CE4D0 @VMTP@DefaultMenuMetrics
+  4CE4D8 @VMTP@DefaultMenuStyle
+  4CE4E0 @VMTP@metafile
+  4CE508 @VMTP@WLRUList
+  4CE528 @VMTP@reportscreen
+  4CE538 @VMTP@idtable
+  4CE540 @VMTP@screen
+  4CE560 @VMTP@PlacementEl
+  4CE568 @VMTP@PlacementHash
+  4CE580 @VMTP@ClaChildWindow
+  4CE5A0 @VMTP@printer
+  4CE5A8 @VMTP@PrinterFinder
+  4CE5B0 @VMTP@PW9x
+  4CE5B8 @VMTP@PNT4
+  4CE5C0 @VMTP@PWin
+  4CE5D0 @VMTP@ThreadedGroup
+  4CE5E8 @VMTP@sharedresource
+  4CE5F0 @VMTP@imageobject
+  4CE5F8 @VMTP@sharedcursor
+  4CE600 @VMTP@ScrollableArea
+  4CE608 @VMTP@AreaScroller
+  4CE620 @VMTP@scrollarea
+  4CE638 @VMTP@property
+  4CE658 @VMTP@systemproperties
+  4CE678 @VMTP@field
+  4CE680 @VMTP@SynchronizedClass
+  4CE688 @VMTP@DllInstance
+  4CE690 @VMTP@DllHash
+  4CE698 @VMTP@SimpleObject
+  4CE6A0 @VMTP@BaseHashElement
+  4CE6A8 @VMTP@StringHashElement
+  4CE6B0 @VMTP@IntegerHashElement
+  4CE6B8 @VMTP@NullHashElement
+  4CE6C0 @VMTP@BaseHashTable
+  4CE6C8 @VMTP@StringHashTable
+  4CE6D0 @VMTP@IntegerHashTable
+  4CE6D8 @VMTP@NullHashTable
+  4CE6E0 @VMTP@HashIterator
+  4CE6E8 @VMTP@FontHashTable
+  4CE6F0 @VMTP@HashedFontData
+  4CE6F8 @VMTP@WxFont
+  4CE700 @VMTP@ExclusiveNotRecursiveLock
+  4CE708 @VMTP@WxStaticAtom
+  4CE710 @VMTP@WxHeapAtom
+  4CE718 @VMTP@WxAtomTable
+  4CE720 @VMTP@WxLiteralName
+  4CE728 @VMTP@WxNamedValues
+  4CE730 @VMTP@CPPEH
+  4CE738 @VMTP@SLink
+  4CE740 @VMTP@SLinkBase
+  4CE758 @VMTP@TimerList
+  4CE760 @VMTP@ThreadLaunch_EH
+  4CE768 @VMTP@CT_DT_EH
+  4CE770 @VMTP@WinHelpEngine
+  4CE778 @VMTP@HtmlHelpEngine
+  4CE790 @VMTP@Read_EH
+  4CE798 @VMTP@ThreadEH
+  4CE7B8 @VMTP@Container
+  4CE7C8 @VMTP@control
+  4CE7E8 @VMTP@toolbar
+  4CE7F0 @VMTP@UseDesc
+  4CE7F8 @VMTP@FieldDesc
+  4CE800 @VMTP@QueueDesc
+  4CE810 @VMTP@stringcontrol
+  4CE818 @VMTP@buttoncontrol
+  4CE820 @VMTP@checkbase
+  4CE828 @VMTP@pushbuttoncontrol
+  4CE830 @VMTP@checkcontrol
+  4CE838 @VMTP@graphiccontrol
+  4CE840 @VMTP@imagecontrol
+  4CE848 @VMTP@MultiLineText
+  4CE858 @VMTP@singletextcontrol
+  4CE870 @VMTP@textcontrol
+  4CE888 @VMTP@TextArea
+  4CE890 @VMTP@TextScroller
+  4CE898 @VMTP@ToolTip
+  4CE8A0 @VMTP@InputPicture
+  4CE8A8 @VMTP@MaskedInput
+  4CE8B0 @VMTP@bordercontrol
+  4CE8C8 @VMTP@rtfcontrol
+  4CE8D0 @VMTP@rtfprop
+  4CE8D8 @VMTP@rtfrepprop
+  4CE8E0 @VMTP@rtffont
+  4CE8E8 @VMTP@rtfsource
+  4CE8F0 @VMTP@rtffile
+  4CE8F8 @VMTP@rtffield
+  4CE900 @VMTP@rtfpage
+  4CE908 @VMTP@rtfscrollbar
+  4CE910 @VMTP@rtftabs
+  4CE918 @VMTP@rtfselection
+  4CE920 @VMTP@RTFOleCallback
+  4CE928 @VMTP@DIBimage
+  4CE950 @VMTP@bmpimage
+  4CE958 @VMTP@gifstoreditem
+  4CE960 @VMTP@localimage
+  4CE968 @VMTP@gifappext
+  4CE978 @VMTP@gifimage
+  4CE990 @VMTP@pcximage
+  4CE998 @VMTP@iconimage
+  4CE9A0 @VMTP@sysiconimage
+  4CE9B0 @VMTP@wmfimage
+  4CE9C0 @VMTP@emfimage
+  4CE9C8 @VMTP@IxLog
+  4CE9D0 @VMTP@IxBaseLogMedia
+  4CE9D8 @VMTP@IxBinStream
+  4CE9E0 @VMTP@IxBinOStream
+  4CE9E8 @VMTP@IxBinIStream
+  4CE9F0 @VMTP@PNG_Logger
+  4CE9F8 @VMTP@ReadStream
+  4CEA00 @VMTP@EH_PNGDecode
+  4CEA08 @VMTP@pngimage
+  4CEA10 @VMTP@TouchData
+  4CEA18 @VMTP@InputData
+  4CEA20 @VMTP@dragdrop
+  4CEA38 @VMTP@droptarget
+  4CEA40 @VMTP@oledroptarget
+  4CEA48 @VMTP@draggevent
+  4CEA60 @VMTP@InputPoint
+  4CEA68 @VMTP@TouchPoint
+  4CEA78 @VMTP@UserPropTable
+  4CEA80 @VMTP@UserProperty
+  4CEA9C _TryState
+  4CEAAC __cur_except
+  4CEAD4 __proc_time
+  4CEB00 _AStringHT
+  4CEC98 _12checkcontrol__info
+  4CECB4 _13state3control__info
+  4CECD0 _15droplistcontrol__info
+  4CECEC _12entrycontrol__info
+  4CED08 _14graphiccontrol__info
+  4CEE04 _11listcontrol__info
+  4CEE50 _12groupcontrol__info
+  4CEE6C _13optioncontrol__info
+  4CEE88 _15progresscontrol__info
+  4CEEA4 _17pushbuttoncontrol__info
+  4CEEC0 _12radiocontrol__info
+  4CEEDC _13regioncontrol__info
+  4CEEF8 _USP
+  4CEF20 _13slidercontrol__info
+  4CEF3C _13promptcontrol__info
+  4CEF58 _13stringcontrol__info
+  4CEF74 _10tabcontrol__info
+  4CEF90 _12sheetcontrol__info
+  4CEFBC _7toolbar__toolbarclass
+  4CEFCC _11textcontrol__info
+  4CEFE8 _17singletextcontrol__info
+  4CF004 _7ToolTip__TipInfo
+  4CF01C _5bevel__upupdwdw1
+  4CF020 _5bevel__dwdwupup1
+  4CF024 _5bevel__upupdwdw2
+  4CF028 _5bevel__dwdwupup2
+  4CF02C _LightBrush
+  4CF208 _traceFiles
+  4CF228 _allSections
+  4CF260 _8gifimage__giftimerclass
+  4CF270 _11HeapProtect__crit
+  4CF288 _Alloc32
+  4CF290 _Alloc24
+  4CF298 _Alloc16
+  4CF2A0 _Alloc12
+  4CF2A8 _Alloc8
+  4CF2B0 _Alloc4
+  4CF2B8 _16ChunkAllocator32__LowerBound
+  4CF2BC _16ChunkAllocator32__UpperBound
+  4CF2C0 _16ChunkAllocator32__CurAlloc
+  4CF2C4 _16ChunkAllocator32__SubAllocator
+  4CF348 _allocator
+  4CF350 _11UniqueArray__sortCS
+  4CF3C0 __handler
+  4CF918 _afxCriticalSection
+  4CF988 _10rtfcontrol__info
+  4CFA80 _THRHANDLER
+  4CFA98 __HelpEngines
+  4CFAF0 _3KBD__ALIASES
+  4CFB1C _3KBD__SOFT
+  4CFB5C _4view__chain
+  4CFB60 _clean
+  4CFB70 _phWhiteBrush
+  4CFB74 _phErodeBrush
+  4CFB9C _phFrameBrush
+  4CFBC0 _phWindowBrush
+  4CFBE4 _phTextBrush
+  4CFC08 _phFaceBrush
+  4CFC2C _phHiliteBrush
+  4CFC50 _phShadowBrush
+  4CFC74 _phBtnTextBrush
+  4CFC98 _phHighTextBrush
+  4CFCBC _phHighBackBrush
+  4CFCE0 _phGrayTextBrush
+  4CFD04 _phTooltipBrush
+  4CFD28 _ph3DDkShadowBrush
+  4CFD4C _ph3DLightBrush
+  4CFD70 _14ClaChildWindow__clientclass
+  4CFDA0 _12ClaMDIWindow__MDISync
+  4CFDCC _csPal
+  4CFDE4 Wsl_DataAccess
+  4CFDEC Wsl_AppInstance
+  4CFDF0 Wsl_ResourceInstance
+  4CFDF4 Wsl_LFNEnabled
+  4CFDF8 Wsl_dyBorder
+  4CFDFC Wsl_Atoms
+  4CFE1C WslHelp_HlpAtoms
+  4CFE3C Wsl_SysHKL
+  4CFE40 Wsl_AppName
+  4CFF40 Wsl_AppNameW
+  4D0140 QUERY_PSCREEN
+  4D0144 QUERY_PFIELD
+  4D014C _THREAD
+  4D0150 _ERROR
+  4D0250 _ERRORCODE
+  4D0254 _LASTFIELD
+  4D0290 _FIRSTFIELD
+  4D02CC _ACCEPTED
+  4D0308 _FOCUS
+  4D0344 _FIELD
+  4D0380 _EVENT
+  4D03BC _KEYCODE
+  4D03E4 _DDEglobalconvs
+  4D0444 _4NAME__namehash
+  4D0468 _11imageobject__imagelock
+  4D04A8 _shapeCS
+  4D04C0 _9CFrameWnd__rectDefault
+  4D04D4 _4CWnd__Creating
+  4D04EC _17MenuStyleBaseData__info
+  4D0548 _8popupmgr__PopupInfo
+  4D0564 _8property__FieldAtoms
+  4D0588 _6report__reportclass
+  4D05B8 _StatData
+  4D05D0 _Wsl_SysProps
+  4D06F4 _6TabBar__tbclass
+  4D0720 _ActiveT
+  4D079C _UNI
   4D1010 TCB$TRANSQ
   4D152C $TRANSQ
   4D2000 __import_section_start
