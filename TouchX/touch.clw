@@ -3,22 +3,24 @@
                MAP
                END
 
-               INCLUDE ('TOUCH.INC'),ONCE
+               INCLUDE ('cwTOUCH.INC'),ONCE
 
+! no longer need this code...
 
-InputPoint.Next  PROCEDURE()
-  CODE
-  RETURN NULL;
-
-TouchPoint.Next  PROCEDURE()
-  CODE
-  RETURN NULL
-
-InputData.Next  PROCEDURE()
-  CODE
-  RETURN NULL
-
-TouchData.Next  PROCEDURE()
-  CODE
-  RETURN NULL
-
+!
+!InputPoint.Next  PROCEDURE()
+!  CODE
+!  RETURN NULL;
+!
+!InputPoint.Next  PROCEDURE()
+!  CODE
+!  RETURN NULL
+!
+!InputPoint.Next  PROCEDURE()
+!  CODE
+!  RETURN NULL
+!
+!InputPoint.Next  PROCEDURE()
+!  CODE
+!  RETURN NULL
+!
