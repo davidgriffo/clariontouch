@@ -8,3 +8,6 @@ map/
 [Oo]bj/
 
 *.cache
+*.map
+*.lib
+*.obj

@@ -1,6 +1,10 @@
                      PROGRAM
 
+<<<<<<< HEAD
                      INCLUDE ('cwTOUCH.INC'),ONCE
+=======
+                     INCLUDE ('CWTOUCH.INC'),ONCE
+>>>>>>> refs/remotes/softvelocity/master
 
 EXTENT               GROUP,TYPE
 cx                     LONG
